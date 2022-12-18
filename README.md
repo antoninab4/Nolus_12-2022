@@ -30,7 +30,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile && \
 source ~/.bash_profile && \
 go version
 ```
-# установим Rust (выберем 1 и y )
+#### установим Rust (выберем 1 и y )
 ```
 curl https://sh.rustup.rs -sSf | sh
 ```
