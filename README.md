@@ -257,9 +257,9 @@ sudo journalctl -u nolusd -f -o cat
 ```
 nolusd keys show $MONIKER_NOLUS --bech val -a
 ```
-Делегировать токены валидатору
+Делегировать токены валидатору (1 ТОКЕН)
 ```
-nolusd tx staking delegate АДРЕС_ВАЛИДАТОРА 1000000 --from $WALLET_NOLUS --chain-id $CHAIN_ID_NOLUS
+nolusd tx staking delegate АДРЕС_ВАЛИДАТОРА 1000000unls --from ИМЯ_ИЛИ_АДРЕС_КОШЕЛЬКА --fees 5000unls -y
 ```
 Внести изменения в валидатора
 
